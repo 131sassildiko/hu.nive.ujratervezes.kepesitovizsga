@@ -15,6 +15,9 @@ public class Army {
     };
 
     public void damageAll(int damage) {
+        for MilitaryUnit militaryUnit : militaryUnitList{
+            militaryUnit.doDamage();
+        }
     }
 
 }
